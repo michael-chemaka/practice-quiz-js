@@ -1,0 +1,86 @@
+
+
+
+{
+    "frontend": [
+        {
+            "question": "Which of the following is a popular frontend JavaScript framework?",
+            "choices": ["Django", "React", "Flask", "Express"],
+            "answer": "React"
+        },
+        {
+            "question": "CSS is used for?",
+            "choices": ["Structuring the webpage", "Styling the webpage", "Running scripts", "Database management"],
+            "answer": "Styling the webpage"
+        },
+        {
+            "question": "Which HTML element is used for the largest heading?",
+            "choices": ["<h6>", "<heading>", "<h1>", "<head>"],
+            "answer": "<h1>"
+        },
+        {
+            "question": "Flexbox is primarily used for?",
+            "choices": ["Styling tables", "Positioning elements", "Connecting databases", "Handling HTTP requests"],
+            "answer": "Positioning elements"
+        },
+        {
+            "question": "Which attribute is used to make an input field mandatory in HTML?",
+            "choices": ["required", "mandatory", "needed", "must"],
+            "answer": "required"
+        }
+    ],
+    "backend": [
+        {
+            "question": "Which language is commonly used for backend development?",
+            "choices": ["Python", "HTML", "CSS", "React"],
+            "answer": "Python"
+        },
+        {
+            "question": "What is REST in backend?",
+            "choices": ["A database", "A type of API", "A frontend library", "A server"],
+            "answer": "A type of API"
+        },
+        {
+            "question": "Node.js is built on which runtime?",
+            "choices": ["Python", "Java", "Ruby", "Chrome V8"],
+            "answer": "Chrome V8"
+        },
+        {
+            "question": "Which HTTP method is used to update existing data?",
+            "choices": ["GET", "PUT", "POST", "FETCH"],
+            "answer": "PUT"
+        },
+        {
+            "question": "MVC stands for?",
+            "choices": ["Model View Controller", "Main Virtual Controller", "Modular View Component", "Main View Command"],
+            "answer": "Model View Controller"
+        }
+    ],
+    "database": [
+        {
+            "question": "Which one is a relational database management system?",
+            "choices": ["MongoDB", "MySQL", "Redis", "Cassandra"],
+            "answer": "MySQL"
+        },
+        {
+            "question": "SQL stands for?",
+            "choices": ["Structured Query Language", "Stylish Question Language", "Simple Query Language", "Sequential Query Language"],
+            "answer": "Structured Query Language"
+        },
+        {
+            "question": "Which command is used to retrieve data from a SQL database?",
+            "choices": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+            "answer": "SELECT"
+        },
+        {
+            "question": "Which of the following is a NoSQL database?",
+            "choices": ["PostgreSQL", "MongoDB", "Oracle", "SQLite"],
+            "answer": "MongoDB"
+        },
+        {
+            "question": "What is the purpose of an index in a database?",
+            "choices": ["Increase storage", "Speed up searches", "Sort records", "Remove duplicates"],
+            "answer": "Speed up searches"
+        }
+    ]
+}
