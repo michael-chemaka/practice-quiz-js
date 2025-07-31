@@ -19,43 +19,13 @@
                     <div class="progressbar-full"></div>
                 </div>
                 <div class="countdown-timer">
-                    <span class="material-symbols-outlined">timer</span>
+                    <span class="material-symbols-outlined" aria-hidden="true">timer</span>
                     <p class="time-duration">30s</p>
                 </div>
             </div>  
 
-            <h2 id="question-title" >What is the answer to this questions</h2>
-            <ul class="quiz-choices" role="radiogroup" aria-labelledby="question-title">
-                <li class="choice-option correct">
-                    <label>
-                      <input type="radio" name="choices" id="choices1" />
-                      Choice 1
-                      <span class="material-symbols-outlined correct-icon" aria-hidden="true">check_circle</span>
-                    </label>
-                  </li>
-                
-                  <li class="choice-option incorrect">
-                    <label>
-                      <input type="radio" name="choices" id="choices2" />
-                      Choice 2
-                      <span class="material-symbols-outlined incorrect-icon" aria-hidden="true">cancel</span>
-                    </label>
-                  </li>
-                
-                  <li class="choice-option">
-                    <label>
-                      <input type="radio" name="choices" id="choices3" />
-                      Choice 3
-                    </label>
-                  </li>
-                
-                  <li class="choice-option">
-                    <label>
-                      <input type="radio" name="choices" id="choices4" />
-                      Choice 4
-                    </label>
-                  </li>
-            </ul>
+            <h2 id="question-title" ></h2>
+            <ul class="quiz-choices" role="radiogroup" aria-labelledby="question-title"></ul>
 
             <div class="quiz-footer">
                 <p class="question-counter"><b>1</b> of <b>5</b> Questions</p>
@@ -69,5 +39,7 @@
         
         
     </div>
+
+    <script src="questions.js"></script>
 </body>
 </html>
